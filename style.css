@@ -252,12 +252,14 @@ header nav ul {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    min-width: 400px;
+    min-width: 420px;
 }
 
 .about-image {
     width: 16vw;
+    min-width: 200px;
     height: 16vw;
+    min-height: 200px;
     background: lightgray;
     border-radius: 10px;
 }
