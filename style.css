@@ -235,7 +235,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 2vw;
 }
 
 #about-text-container {
@@ -273,8 +273,8 @@ header nav ul {
     font-size: 1.5vw;
 }
 
-#about-image-container {
-    max-width: 40%;
+/* #about-image-container {
+    max-width: 35%;
     height: max-content;
     display: flex;
     justify-content: center;
@@ -282,13 +282,20 @@ header nav ul {
     gap: 1.7vw;
     flex-wrap: wrap;
     min-width: 420px;
+    outline: 1px solid red;
+} */
+
+#about-image-container {
+    width: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.7vw;
 }
 
 .about-image {
     width: 16vw;
-    min-width: 200px;
     height: 16vw;
-    min-height: 200px;
     border-radius: 15px;
     transform: scale(1);
     transition-property: transform;
@@ -322,7 +329,7 @@ header nav ul {
     bottom: 1vw;
     left: 1vw;
     z-index: 1;
-    font-size: .9rem;
+    font-size: 1vw;
     display: none;
 }
 
@@ -379,7 +386,7 @@ header nav ul {
 }
 
 #portfolio-heading-support {
-    font-size: 3vw;
+    font-size: 2.6vw;
     text-wrap: nowrap;
     margin-bottom: 2vw;
     position: relative;
@@ -401,9 +408,9 @@ header nav ul {
     background-size: contain;
     position: absolute;
     bottom: -25px;
-    right: 0px;
+    right: -10px;
     height: 50px;
-    width: 12.5vw;
+    width: 11vw;
 }
 
 #portfolio-container {
