@@ -235,7 +235,7 @@ header nav ul {
 }
 
 #about-section {
-    padding: 5vw;
+    padding: 5vw 5vw 10vw 5vw;
     display: flex;
     justify-content: center;
     gap: 5vw;
@@ -363,15 +363,20 @@ header nav ul {
 }
 
 /* PORTFOLIO SECTION */
+#portfolio-anchor {
+    position: relative;
+    top: -70px;
+}
+
 #portfolio-section {
     width: 100%;
-    padding: 10vw 5vw 5vw 5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     top: 0px;
     left: 0px;
+    height: calc(100vh - 70px)
 }
 
 #portfolio-heading {
@@ -383,15 +388,16 @@ header nav ul {
 #portfolio-heading-support {
     font-size: 3vw;
     text-wrap: nowrap;
-    margin-bottom: 60px;
+    margin-bottom: 2vw;
     position: relative;
     top: 0;
     left: 0;
-    width: max-content
+    width: max-content;
 }
 
 .port-head {
-    margin-left: 12.5vw;
+    margin-left: 11vw;
+    width: max-content;
 }
 
 #portfolio-heading-support::after {
