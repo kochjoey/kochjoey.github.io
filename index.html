@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- HEADER WITH LOGO, NAV, AND CONTACT BTN -->
         <header>
             <a href="" class="poppins-bold" id="header-logo">JOEY<span class="poppins-light" id="logo-color">KOCH</span></a>
             <nav>
@@ -26,8 +27,9 @@
                 <a href="" id="contact-btn"><h2 class="poppins-light">CONTACT ME!</h2></a>
             </nav>
         </header>
-
+        <!-- MAIN CONTENT -->
         <main>
+            <!-- HERO SECTION -->
             <section id="hero-section">
                 <img src="resources/photos/hero-img.png" id="hero-image">
                 <div id="hero-text">
@@ -36,8 +38,9 @@
                     <h2 class="poppins-black name">JOEY<br><span class="poppins-black name red">KOCH</span></h2>
                 </div>
             </section>
-
+            <!-- ABOUT SECTION -->
             <section id="about-section">
+                <!-- LEFT COLUMN - HEADER AND PARAGRAPH -->
                 <div id="about-text-container">
                     <div id="about-heading-container">
                         <img src="resources/photos/about-question-mark.png" id="about-mark">
@@ -45,6 +48,7 @@
                     </div>
                     <p id="about-text">I am a trained artist living in the Los Angeles area. Passionate about design, photography,  and web-development, my goals are to build full stack applications that empower my clients to reach their target audience and bring your vision to life!</p>
                 </div>
+                <!-- RIGHT COLUMN - IMAGES AND THEIR DESCRIPTIONS -->
                 <div id="about-image-container">
                     <div class="about-image" id="about-img1">
                         <p class="about-description" id="desc-1">Motorsport Media</p>
@@ -59,8 +63,52 @@
                         <p class="about-description" id="desc-4">Broadcast Commercial<br>Editing</p>
                     </div>
                 </div>
-
             </section>
+            <!-- PORTFOLIO SECTION -->
+             <section id="portfolio-section">
+                    <h2 class="poppins-black red port-head" id="portfolio-heading">That's cool and all...</h2>
+                    <h3 class="poppins-bold port-head" id="portfolio-heading-support">But the stuff I'm working on is cooler!</h3>
+                    <!-- <img src="resources/photos/portfolio-underline.png" id="port-underline"> -->
+                <div id="portfolio-container">
+                    <a href=""><div class="portfolio-element" id="port-1">
+                        <p class="port-text">theluminaryclub.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-2">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-3">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-4">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-5">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-6">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-7">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                    <a href=""><div class="portfolio-element" id="port-8">
+                        <p class="port-text">website.com</p>
+                        <p class="poppins-bold port-text">Click to view!</p>
+                    </div></a>
+                </div>
+             </section>
+
+
+            <!-- POPUP FRAME FOR PORTFOLIO ELEMENTS -->
+            <div id="popup-frame"></div>
+
         </main>
         
         <script src="script.js"></script>
