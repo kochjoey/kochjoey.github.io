@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .poppins-thin {
@@ -44,6 +45,11 @@
 body {
     font-family: Poppins, sans-serif;
     background: #e9e3d3;
+}
+
+main {
+    position: relative;
+    top: 0;
 }
 
 /* HEADER */
@@ -159,9 +165,21 @@ header nav ul {
     text-decoration: none;
     border-radius: 10px;
     font-size: .8rem;
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+#contact-btn:hover {
+    background: #0196e5;
 }
 
 /* HERO SECTION */
+#hero-anchor {
+    position: relative;
+    top: -70px;
+}
+
 #hero-section {
     height: calc(100vh - 60px);
     width: 100vw;
@@ -211,6 +229,10 @@ header nav ul {
 }
 
 /* ABOUT SECTION */
+#about-anchor {
+    position: relative;
+    top: -70px;
+}
 
 #about-section {
     padding: 5vw;
@@ -251,7 +273,7 @@ header nav ul {
 }
 
 #about-text {
-    font-size: 1.3rem;
+    font-size: 1.5vw;
 }
 
 #about-image-container {
@@ -287,7 +309,7 @@ header nav ul {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 5vw;
+    height: 35%;
     width: 100%;
     background: rgba(1, 150, 229, 0.8);
     transform: translateX(-100%);
@@ -341,6 +363,11 @@ header nav ul {
 }
 
 /* PORTFOLIO SECTION */
+#portfolio-anchor {
+    position: relative;
+    top: 60px;
+}
+
 #portfolio-section {
     width: 100%;
     padding: 10vw 5vw 5vw 5vw;
@@ -359,7 +386,7 @@ header nav ul {
 }
 
 #portfolio-heading-support {
-    font-size: 3.5vw;
+    font-size: 3vw;
     text-wrap: nowrap;
     margin-bottom: 60px;
     position: relative;
@@ -369,7 +396,7 @@ header nav ul {
 }
 
 .port-head {
-    margin-left: 6.5vw;
+    margin-left: 12.5vw;
 }
 
 #portfolio-heading-support::after {
@@ -397,8 +424,8 @@ header nav ul {
 
 .portfolio-element {
     background: lightgray;
-    width: 18vw;
-    height: 18vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 15px;
     transform: scale(1);
     transition-property: transform;
@@ -463,6 +490,54 @@ header nav ul {
 #port-2 {
     background: white;
     background-image: url(resources/photos/port-img-2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+}
+
+#port-3 {
+    background: white;
+    background-image: url(resources/photos/port-img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: auto 100%;
+}
+
+#port-4 {
+    background: white;
+    background-image: url(resources/photos/port-img-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: auto 100%;
+}
+
+#port-5 {
+    background: white;
+    background-image: url(resources/photos/port-img-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+}
+
+#port-6 {
+    background: white;
+    background-image: url(resources/photos/port-img-6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+}
+
+#port-7 {
+    background: white;
+    background-image: url(resources/photos/port-img-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+}
+
+#port-8 {
+    background: white;
+    background-image: url(resources/photos/port-img-8.jpg);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: 100% auto;
