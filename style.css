@@ -216,7 +216,7 @@ header nav ul {
     padding: 5vw;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 5vw;
 }
 
 #about-text-container {
@@ -226,25 +226,28 @@ header nav ul {
     justify-content: center;
     gap: 30px;
     position: relative;
-    min-width: 500px;
-}
-
-#about-heading-container {
-    position: relative;
-    width: max-content;
-}
-
-#about-mark {
-    position: absolute;
-    top: 0px;
-    right: -90px;
-    height: auto;
-    width: 80px;
 }
 
 #about-heading {
-    font-size: 4rem;
+    font-size: 4vw;
     text-wrap: nowrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+}
+
+#about-heading::after {
+    content: "";
+    background-image: url(resources/photos/about-question-mark.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    position: absolute;
+    bottom: 0px;
+    right: -7vw;
+    height: 6vw;
+    width: 6vw;
 }
 
 #about-text {
@@ -256,7 +259,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.7vw;
     flex-wrap: wrap;
     min-width: 420px;
 }
@@ -350,9 +353,9 @@ header nav ul {
 }
 
 #portfolio-heading {
-    font-size: 4rem;
+    font-size: 4vw;
     text-wrap: nowrap;
-    line-height: 50px;
+    line-height: 3vw;
 }
 
 #portfolio-heading-support {
@@ -387,7 +390,7 @@ header nav ul {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 1.7vw;
     align-self: center;
     font-size: 1.2vw;
 }
