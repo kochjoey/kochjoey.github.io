@@ -455,5 +455,12 @@ header nav ul {
     background-position: center;
     background-repeat: no-repeat; 
     background-size: 100% auto;
-    background-color: rgba(1, 1, 1, 1);
+}
+
+#port-2 {
+    background: white;
+    background-image: url(resources/photos/port-img-2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
 }
