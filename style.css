@@ -42,6 +42,10 @@
     font-style: normal;
 }
 
+html {
+    scrollbar-color: #989183 #dbd3c1;
+}
+
 body {
     font-family: Poppins, sans-serif;
     background: #e9e3d3;
@@ -182,7 +186,7 @@ header nav ul {
 /* HERO SECTION */
 #hero-section {
     height: calc(100vh - 60px);
-    min-height: 650px;
+    /* min-height: 650px; */
     width: 100vw;
     display: flex;
     justify-content: center;
