@@ -363,11 +363,6 @@ header nav ul {
 }
 
 /* PORTFOLIO SECTION */
-#portfolio-anchor {
-    position: relative;
-    top: 60px;
-}
-
 #portfolio-section {
     width: 100%;
     padding: 10vw 5vw 5vw 5vw;
