@@ -42,6 +42,7 @@ image4.addEventListener('mouseout', function() {
 const home = document.getElementById('home-btn');
 const about = document.getElementById('about-btn');
 const portfolio = document.getElementById('portfolio-btn');
+const contact = document.getElementById('contact-btn');
 
 const homeController = () => {
     home.className = 'active menu-item';
@@ -61,8 +62,15 @@ const portfolioController = () => {
     portfolio.className = 'active menu-item';
 }
 
+const contactController = () => {
+    home.className = 'inactive menu-item';
+    about.className = 'inactive menu-item';
+    portfolio.className = 'inactive menu-item';
+}
+
 home.addEventListener('click', homeController);
 about.addEventListener('click', aboutController);
 portfolio.addEventListener('click', portfolioController);
+contact.addEventListener('click', contactController);
 
 
