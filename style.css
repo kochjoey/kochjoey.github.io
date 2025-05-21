@@ -360,10 +360,9 @@ header nav ul {
 
 /* PORTFOLIO SECTION */
 #portfolio-section {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     position: relative;
     top: 0px;
     left: 0px;
@@ -521,11 +520,10 @@ header nav ul {
 
 /* CONTACT SECTION */
 #contact-section {
-    padding: 5vw 0vw;
+    padding: 5vw 12.5vw;
 }
 
 #contact-heading {
-    margin-left: 12.5vw;
     font-size: 4vw;
     width: max-content;
     position: relative;
@@ -554,10 +552,8 @@ header nav ul {
     display: flex;
     align-items: center;
     margin-top: 8vw;
-    justify-content: space-between;
-    width: 60vw;
-    justify-self: center;
     text-wrap: nowrap;
+    gap: 5vw;
 }
 
 #contact-container img {
@@ -566,9 +562,110 @@ header nav ul {
 
 #contact-text-container {
     line-height: 60px;
-    width: 50%;
 }
 
 .icon {
     margin-right: 2vw;
+}
+
+
+/* RESPONSIVE SIZING */
+@media screen and (max-width: 1100px) {
+    #about-heading {
+        font-size: 2.8rem;
+    }
+    
+    #about-text {
+        font-size: 1rem;
+    }
+
+    #portfolio-heading {
+        font-size: 2.8rem;
+    }
+
+    #contact-heading {
+        font-size: 2.8rem;
+    }
+
+    #portfolio-heading-support {
+        font-size: 1.8rem;
+    }
+
+    #about-heading::after {
+        bottom: 0px;
+        right: -80px;
+        height: 65px;
+        width: 65px;
+    }
+
+    #portfolio-heading-support::after {
+        bottom: -25px;
+        right: -10px;
+        height: 50px;
+        width: 120px;
+    }
+
+    .portfolio-card {
+        gap: 30px;
+        padding: 20px 15px;
+        width: 220px;
+        font-size: .7rem;
+    }
+
+    .portfolio-card-img {
+        width: 175px;
+        height: 175px;
+    }
+
+    #contact-heading::after {
+        bottom: -60px;
+        right: -190px;
+        height: 140px;
+        width: 440px;
+    }
+
+    #contact-container img {
+        width: 280px;
+    }
+
+    #portfolio-container {
+        width: min-content;
+        display: grid;
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(2, 1fr);
+        align-self: center;
+        gap: 2vw;
+    }
+
+    .about-image {
+        width: 180px;
+        height: 180px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        visibility: hidden;
+    }
+
+    /* #about-section {
+        height: min-content;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #about-image-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        align-self: center;
+    }
+
+    #about-text-container {
+        margin-left: 12.5vw;
+    }
+
+    .about-image {
+        width: 180px;
+        height: 180px;
+    } */
 }
