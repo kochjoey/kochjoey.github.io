@@ -600,17 +600,22 @@ footer > p {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    /* header {
+        position: fixed;
+        top: 0px;
+    } */
+
     #header-menu {
         position: fixed;
         left: 100%;
         top: 60px;
-        gap: 40px;
+        gap: 20px;
         flex-direction: column;
         background-color: #dbd3c1;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        padding: 40px 0px;
+        padding: 45px 0px;
     }
 
     nav, nav > * {
