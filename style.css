@@ -58,11 +58,14 @@ body {
     color: var(--accent-red);
 }
 
-main > * {
+/* main > * {
     justify-self: center;
-}
+} */
 
 main {
+    position: flex;
+    flex-direction: column;
+    justify-items: center;
     position: relative;
     top: 0px;
     left: 0px;
