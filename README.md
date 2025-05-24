@@ -8,4 +8,4 @@ This portfolio website project is part of the Codecademy Fullstack web developme
 
 ## Authors
 
-[Joey Koch](https://instagram.com/joeykoch.la)
+[Joey Koch](https://github.com/kochjoey)
