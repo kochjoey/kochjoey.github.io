@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,115 +22,115 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- HEADER WITH LOGO, NAV, AND CONTACT BTN -->
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
         <header>
-            <a href="" class="poppins-bold" id="header-logo">JOEY<span class="poppins-light" id="logo-color">KOCH</span></a>
-            <nav>
-                <ul>
-                    <a href="#home-joeykoch" class="active menu-item" id="home-btn"><li>HOME</li></a>
-                    <a href="#about-joeykoch" class="inactive menu-item" id="about-btn"><li>ABOUT</li></a>
-                    <a href="#portfolio-joeykoch" class="inactive menu-item" id="portfolio-btn"><li>PORTFOLIO</li></a>
-                </ul>
-                <a href="#contact-joeykoch" id="contact-btn"><h2 class="poppins-light">CONTACT ME!</h2></a>
-            </nav>
+            <div id="header-container">
+                <a href="" class="poppins-black" id="header-logo">JOEY<span class="poppins-light" id="logo-support">KOCH</span></a>
+                <nav>
+                    <ul id="header-menu">
+                        <a href="#home-joey-koch" class="active menu-item" id="home-btn"><li>HOME</li></a>
+                        <a href="#about-joey-koch" class="inactive menu-item" id="about-btn"><li>ABOUT</li></a>
+                        <a href="#portfolio-joey-koch" class="inactive menu-item" id="portfolio-btn"><li>PORTFOLIO</li></a>
+                    </ul>
+                        <a href="#contact-joey-koch" id="contact-btn">CONTACT ME!</a>
+                </nav>
+            </div>
         </header>
-        <!-- MAIN CONTENT -->
+
         <main>
             <!-- HERO SECTION -->
-            <a href="" class="page-anchor" id="home-joeykoch"></a>
+            <a href="" class="page-anchor" id="home-joey-koch"></a>
             <section id="hero-section">
-                <img src="resources/photos/hero-img.png" id="hero-image">
-                <div id="hero-text">
-                    <h2 class="intro">Hello! My name is</h2>
-                    <img src="resources/photos/hero-doodle.png" id="hero-doodle">
-                    <h2 class="poppins-black name">JOEY<br><span class="poppins-black name red">KOCH</span></h2>
+                <img src="resources/images/hero-img.png" alt="A picture of myself in a polaroid frame.">
+                <div id="hero-text-container">
+                    <h2 class="hero-intro">Hello! My name is</h2>
+                    <h1 class="poppins-black hero-name">JOEY<br><span id="hero-last-name">KOCH</span></h1>
                 </div>
             </section>
+
             <!-- ABOUT SECTION -->
-            <a href="" class="page-anchor" id="about-joeykoch"></a>
+            <a href="" class="page-anchor" id="about-joey-koch"></a>
             <section id="about-section">
-                <!-- LEFT COLUMN - HEADER AND PARAGRAPH -->
                 <div id="about-text-container">
-                        <h2 class="poppins-black red" id="about-heading">Who am I</h2>
-                    <p id="about-text">I'm just an artist who loves technology! Passionate about design, photography, and web-development, my goal is to build full stack web applications that empower my clients to reach their target audience, and to bring your vision to life!</p>
+                    <h2 class="red-heading about-heading">Who am I</h2>
+                    <p>I'm just an artist who loves technology! Passionate about design, photography, and web-development, my goal is to build full stack web applications that empower my clients to reach their target audience, and to bring your vision to life!</p>
                 </div>
-                <!-- RIGHT COLUMN - IMAGES AND THEIR DESCRIPTIONS -->
-                <div id="about-image-container">
-                    <div class="about-image" id="about-img1">
-                        <p class="about-description" id="desc-1">Motorsport Media</p>
-                    </div>
-                    <div class="about-image" id="about-img2">
-                        <p class="about-description" id="desc-2">Live Tour Promotion</p>
-                    </div>
-                    <div class="about-image" id="about-img3">
-                        <p class="about-description" id="desc-3">Classic Arts</p>
-                    </div>
-                    <div class="about-image" id="about-img4">
-                        <p class="about-description" id="desc-4">Broadcast Commercial<br>Editing</p>
-                    </div>
+                <div id="about-img-container">
+                    <img src="resources/images/HTML5_Logo.svg" alt="HTML Logo" class="skill-card">
+                    <img src="resources/images/CSS3_logo_and_wordmark.svg" alt="CSS Logo" class="skill-card">
+                    <img src="resources/images/JavaScript.svg" alt="JavaScript Logo" class="skill-card">
                 </div>
             </section>
+
             <!-- PORTFOLIO SECTION -->
-             <a href="" class="page-anchor" id="portfolio-joeykoch"></a>
-             <section id="portfolio-section">
-                    <h2 class="poppins-black red port-head" id="portfolio-heading">That's cool and all...</h2>
-                    <h3 class="poppins-bold port-head" id="portfolio-heading-support">But the stuff I'm working on is cooler!</h3>
-                <div id="portfolio-container">
+            <a href="" class="page-anchor" id="portfolio-joey-koch"></a> 
+            <section id="portfolio-section">
+                   <h2 class="poppins-black red-heading" id="portfolio-heading">That's cool and all...</h2>
+                   <h3 class="poppins-bold port-head" id="portfolio-heading-support">But the stuff I'm working on is cooler!</h3>
+               <div id="portfolio-container">
 
-                    <a href=""><div class="portfolio-card">
-                        <div class="portfolio-card-img" id="port-1">
-                            <p class="port-text">theluminaryclub.com</p>
-                            <p class="poppins-bold port-text">Click to view!</p>
-                        </div>
-                        <p>HTML // CSS // JAVASCRIPT</p>
-                    </div></a>
+                   <a href="https://dream-rl.github.io/deutsch-verein" target="_blank" rel="noopener noreferrer"><div class="portfolio-card">
+                       <div class="portfolio-card-img" id="port-1">
+                           <p class="port-text">German American Club</p>
+                           <p class="port-text">CodeCademy Project</p>
+                           <p class="poppins-bold port-text">Click to view!</p>
+                       </div>
+                       <p>HTML // CSS</p>
+                   </div></a>
 
-                    <a href=""><div class="portfolio-card">
-                        <div class="portfolio-card-img" id="port-2">
-                            <p class="port-text">website.com</p>
-                            <p class="poppins-bold port-text">Click to view!</p>
-                        </div>
-                        <p>HTML // CSS // JAVASCRIPT</p>
-                    </div></a>
+                   <a href="https://kochjoey.github.io" target="_blank" rel="noopener noreferrer"><div class="portfolio-card">
+                       <div class="portfolio-card-img" id="port-2">
+                           <p class="port-text">Portfolio Website</p>
+                           <p class="poppins-bold port-text">Click to view!</p>
+                       </div>
+                       <p>HTML // CSS // JAVASCRIPT</p>
+                   </div></a>
 
-                    <a href=""><div class="portfolio-card">
-                        <div class="portfolio-card-img" id="port-3">
-                            <p class="port-text">website.com</p>
-                            <p class="poppins-bold port-text">Click to view!</p>
-                        </div>
-                        <p>HTML // CSS // JAVASCRIPT</p>
-                    </div></a>
+                   <a href="https://dream-rl.github.io" target="_blank" rel="noopener noreferrer"><div class="portfolio-card">
+                       <div class="portfolio-card-img" id="port-3">
+                            <p class="port-text">Excursion</p>
+                           <p class="port-text">CodeCademy Project</p>
+                           <p class="poppins-bold port-text">Click to view!</p>
+                       </div>
+                       <p>HTML // CSS</p>
+                   </div></a>
 
-                    <a href=""><div class="portfolio-card">
-                        <div class="portfolio-card-img" id="port-4">
-                            <p class="port-text">website.com</p>
-                            <p class="poppins-bold port-text">Click to view!</p>
-                        </div>
-                        <p>HTML // CSS // JAVASCRIPT</p>
-                    </div></a>
+                   <a href="" target="_blank" rel="noopener noreferrer"><div class="portfolio-card">
+                       <div class="portfolio-card-img" id="port-4">
+                           <p class="port-text">Tea Cozy</p>
+                           <p class="port-text">CodeCademy Project</p>
+                           <p class="poppins-bold port-text">Click to view!</p>
+                       </div>
+                       <p>HTML // CSS</p>
+                   </div></a>
 
-                </div>
-             </section>
+               </div>
+            </section>
 
-             <a href="" class="page-anchor" id="contact-joeykoch"></a>
-             <section id="contact-section">
-                <h2 class="poppins-black red" id="contact-heading">Let's work together</h2>
+            <!-- CONTACT SECTION -->
+            <a href="" class="page-anchor" id="contact-joey-koch"></a>
+            <section id="contact-section">
+                <h2 class="poppins-black red-heading" id="contact-heading">Let's work together</h2>
                 <div id="contact-container">
-                    <img src="resources/photos/contact-computer-blue.png">
-                    <div id="contact-text-container">
+                    <div id="contact-info-container">
                         <h3>Contact Info:</h3>
-                        <p><i class="fa-solid fa-phone fa-2xl icon" style="color: #ed4f4f;"></i>Phone: (425) 749-9797</p>
-                        <p><i class="fa-solid fa-envelope fa-2xl icon" style="color: #ed4f4f;"></i>Email: kochjoey@gmail.com</p>
-                    </div>       
+                        <p><i class="fa-solid fa-phone fa-xl icon" style="color: #ed4f4f;"></i><strong>Phone:</strong> (425) 749-9797</p>
+                        <p><i class="fa-solid fa-envelope fa-xl icon" style="color: #ed4f4f;"></i><strong>Email:</strong> kochjoey@gmail.com</p>
+                        <p><i class="fa-brands fa-github fa-xl icon" style="color: #ed4f4f;"></i><strong>Github:</strong> <a href="https://github.com/kochjoey" id="github-link" target="_blank" rel="noopener noreferrer">github.com/kochjoey</a></p>
+                    </div>
+                    <img src="resources/images/contact-hero-img.png" id="contact-hero-img" alt="A drawing of the internet globe icon with a pointer icon on top.">
                 </div>
-             </section>
 
+            </section>
 
-            <!-- POPUP FRAME FOR PORTFOLIO ELEMENTS -->
-            <div id="popup-frame"></div>
+            <footer>
+                <p>© Joey Koch 2025</p>
+            </footer>
 
-        </main>
-        
         <script src="script.js"></script>
+        </main>
     </body>
 </html>
