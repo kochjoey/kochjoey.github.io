@@ -63,9 +63,9 @@ body {
 } */
 
 main {
-    position: flex;
+    display: flex;
     flex-direction: column;
-    justify-items: center;
+    align-items: center;
     position: relative;
     top: 0px;
     left: 0px;
