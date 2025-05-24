@@ -36,3 +36,16 @@ about.addEventListener('click', aboutController);
 portfolio.addEventListener('click', portfolioController);
 contact.addEventListener('click', contactController);
 
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.getElementById('header-menu');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('on');
+    navMenu.classList.toggle('on');
+});
+
+document.querySelectorAll('.hamburger-item').forEach(n => n.addEventListener('click', () => {
+    hamburger.classList.remove('on');
+    navMenu.classList.remove('on');
+}))
+
