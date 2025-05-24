@@ -136,6 +136,7 @@ header a {
     position: relative;
     top: 0;
     z-index: 0;
+    overflow: hidden;
 }
 
 .inactive {
@@ -599,12 +600,7 @@ footer > p {
     .hamburger.on .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-    /* header {
-        position: fixed;
-        top: 0px;
-    } */
-
+    
     #header-menu {
         position: fixed;
         left: 100%;
@@ -629,10 +625,6 @@ footer > p {
     .active {
         background: #c5beac;
         position: relative;
-    }
-
-    .menu-item {
-        overflow: hidden;
     }
 
     #header-menu.on {
