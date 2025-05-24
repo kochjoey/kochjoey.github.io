@@ -12,4 +12,5 @@ This portfolio website project is part of the Codecademy Fullstack web developme
 
 ## DEPLOY STATUS
 [![Netlify Status](https://api.netlify.com/api/v1/badges/346f96e5-4f40-4153-a8be-037f755833fb/deploy-status)](https://app.netlify.com/projects/effervescent-pony-b259f6/deploys)
+
 **Live Website:** [https://kochjoey.com](https://kochjoey.com)
