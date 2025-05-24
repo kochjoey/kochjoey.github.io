@@ -676,6 +676,16 @@ footer > p {
         padding: 20px 10px;
     }
 
+    #portfolio-heading-support {
+        font-size: 1.1rem;
+    }
+    
+    #portfolio-heading-support::after {
+        bottom: -20px;
+        height: 30px;
+        width: 90px;
+    }
+
     #contact-section {
         width: 90%;
         max-width: 1300px;
