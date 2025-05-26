@@ -10,21 +10,18 @@ const homeController = () => {
   home.className = "active menu-item";
   about.className = "inactive menu-item";
   portfolio.className = "inactive menu-item";
-  skills.className = "inactive menu-item";
 };
 
 const aboutController = () => {
   home.className = "inactive menu-item";
   about.className = "active menu-item";
   portfolio.className = "inactive menu-item";
-  skills.className = "inactive menu-item";
 };
 
 const portfolioController = () => {
   home.className = "inactive menu-item";
   about.className = "inactive menu-item";
   portfolio.className = "active menu-item";
-  skills.className = "inactive menu-item";
 };
 
 const contactController = () => {
